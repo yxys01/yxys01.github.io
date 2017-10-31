@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>潘柏信</title>
+    <title>yxys01</title>
     <description>欢迎来到我的个人站~</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
@@ -167,7 +167,7 @@ We added a new template containing the Network Extension entitlements to your te
 &lt;p&gt;参考资源：&lt;a href=&quot;http://stackoverflow.com/questions/31704292/nehotspothelper-networkextension-api-ios9-0&quot;&gt;NEHotspotHelper NetworkExtension API iOS9.0&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2017/01/iOS_Wifilist/&quot;&gt;Wifi 定位原理及 iOS Wifi 列表获取&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2017/01/iOS_Wifilist/&quot;&gt;Wifi 定位原理及 iOS Wifi 列表获取&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 03 Jan 2017 00:00:00 +0800</pubDate>
@@ -226,7 +226,7 @@ CGRectMake(0, -self.view.bounds.size.height, self.view.bounds.size.width, self.v
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/12/iOS_Dev_Note/&quot;&gt;iOS开发中的小问题记录&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/12/iOS_Dev_Note/&quot;&gt;iOS开发中的小问题记录&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 02 Dec 2016 00:00:00 +0800</pubDate>
@@ -813,7 +813,7 @@ sess.close()
 这篇文章是在 &lt;a href=&quot;https://www.analyticsvidhya.com/blog/2016/10/an-introduction-to-implementing-neural-networks-using-tensorflow/&quot;&gt;An Introduction to Implementing Neural Networks using TensorFlow&lt;/a&gt; 的基础上做的翻译和局部调整，如果发现翻译中有不对或者歧义的的地方欢迎在下面评论里提问，我会加以修正 。&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/neural_networks_using_TensorFlow/&quot;&gt;使用 TensorFlow 实现神经网络&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/neural_networks_using_TensorFlow/&quot;&gt;使用 TensorFlow 实现神经网络&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
@@ -892,7 +892,7 @@ H6 :###### Header 6    &lt;br /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/markdownTool/&quot;&gt;Markdown工具集&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/markdownTool/&quot;&gt;Markdown工具集&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
@@ -998,7 +998,7 @@ The key fingerprint is:
 
 &lt;p&gt;另外，请注意路径的正确性。&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/macTips/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/macTips/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 16 Nov 2016 00:00:00 +0800</pubDate>
@@ -1060,7 +1060,7 @@ autoreconf: automake failed with exit status: 1
 &lt;p&gt;一个小时后。。。　如果编译没出问题，你可以在目录　&lt;code class=&quot;highlighter-rouge&quot;&gt;tensorflow-master/tensorflow/contrib/makefile／gen/lib&lt;/code&gt; 下找到一个静态库：&lt;code class=&quot;highlighter-rouge&quot;&gt;libtensorflow-core.a&lt;/code&gt; ，把这个静态库拷贝到 camera 项目中，然后编译运行。&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 03 Nov 2016 00:00:00 +0800</pubDate>
@@ -1566,7 +1566,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/09/iOSLowerLeftAppicon/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/09/iOSLowerLeftAppicon/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Sep 2016 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2016/09/iOSLowerLeftAppicon/</link>
@@ -1728,7 +1728,7 @@ smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要�
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;潘柏信的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/08/PythonTestAutomationiOS/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/08/PythonTestAutomationiOS/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 04 Aug 2016 00:00:00 +0800</pubDate>
