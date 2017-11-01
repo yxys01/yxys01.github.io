@@ -10,8 +10,8 @@ url: "http://yxys01.github.io"
 
 # Comment
 comment:
-    disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+   # disqus: leopard
+      uyan: 2147826  #`有言id,登录有言官网申请
 
 # Social
 social:
@@ -22,8 +22,8 @@ social:
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-#baidu:
-#    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+baidu:
+    id: 85c16273330e817191cf0227cf713b1a  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
