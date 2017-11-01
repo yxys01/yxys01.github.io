@@ -100,7 +100,7 @@ We added a new template containing the Network Extension entitlements to your te
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- (void)getWifiList {
 
 	if (![[[UIDevice currentDevice] systemVersion] floatValue] &amp;gt;= 9.0) {return;}
-	dispatch_queue_t queue = dispatch_queue_create(&quot;com.leopardpan.HotspotHelper&quot;, 0);
+	dispatch_queue_t queue = dispatch_queue_create(&quot;com.yxys01.HotspotHelper&quot;, 0);
 	[NEHotspotHelper registerWithOptions:nil queue:queue handler: ^(NEHotspotHelperCommand * cmd) {
 		if(cmd.commandType == kNEHotspotHelperCommandTypeFilterScanList) {
 			for (NEHotspotNetwork* network  in cmd.networkList) {
@@ -154,7 +154,7 @@ We added a new template containing the Network Extension entitlements to your te
 
 &lt;h3 id=&quot;qa&quot;&gt;Q&amp;amp;A&lt;/h3&gt;
 
-&lt;p&gt;在操作过程或者文章有问题的话欢迎在 &lt;a href=&quot;http://baixin.io/2017/01/iOS_Wifilist/&quot;&gt;原文&lt;/a&gt; 里提问或指正。&lt;/p&gt;
+&lt;p&gt;在操作过程或者文章有问题的话欢迎在 &lt;a href=&quot;https://yxys01.github.io2017/01/iOS_Wifilist/&quot;&gt;原文&lt;/a&gt; 里提问或指正。&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;ul&gt;
@@ -167,7 +167,7 @@ We added a new template containing the Network Extension entitlements to your te
 &lt;p&gt;参考资源：&lt;a href=&quot;http://stackoverflow.com/questions/31704292/nehotspothelper-networkextension-api-ios9-0&quot;&gt;NEHotspotHelper NetworkExtension API iOS9.0&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2017/01/iOS_Wifilist/&quot;&gt;Wifi 定位原理及 iOS Wifi 列表获取&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2017/01/iOS_Wifilist/&quot;&gt;Wifi 定位原理及 iOS Wifi 列表获取&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 03 Jan 2017 00:00:00 +0800</pubDate>
@@ -226,7 +226,7 @@ CGRectMake(0, -self.view.bounds.size.height, self.view.bounds.size.width, self.v
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/12/iOS_Dev_Note/&quot;&gt;iOS开发中的小问题记录&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/12/iOS_Dev_Note/&quot;&gt;iOS开发中的小问题记录&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 02 Dec 2016 00:00:00 +0800</pubDate>
@@ -813,7 +813,7 @@ sess.close()
 这篇文章是在 &lt;a href=&quot;https://www.analyticsvidhya.com/blog/2016/10/an-introduction-to-implementing-neural-networks-using-tensorflow/&quot;&gt;An Introduction to Implementing Neural Networks using TensorFlow&lt;/a&gt; 的基础上做的翻译和局部调整，如果发现翻译中有不对或者歧义的的地方欢迎在下面评论里提问，我会加以修正 。&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/neural_networks_using_TensorFlow/&quot;&gt;使用 TensorFlow 实现神经网络&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/11/neural_networks_using_TensorFlow/&quot;&gt;使用 TensorFlow 实现神经网络&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
@@ -892,7 +892,7 @@ H6 :###### Header 6    &lt;br /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/markdownTool/&quot;&gt;Markdown工具集&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/11/markdownTool/&quot;&gt;Markdown工具集&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
@@ -998,7 +998,7 @@ The key fingerprint is:
 
 &lt;p&gt;另外，请注意路径的正确性。&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/11/macTips/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/11/macTips/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 16 Nov 2016 00:00:00 +0800</pubDate>
@@ -1055,7 +1055,7 @@ autoreconf: automake failed with exit status: 1
 
 &lt;p&gt;解决方法是：先卸载 libtool 在重新安装，&lt;code class=&quot;highlighter-rouge&quot;&gt;brew uninstall libtool&lt;/code&gt; &amp;amp;&amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;brew install libtool&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;如果你还遇到了其它问题，可以看看我之前的一片文章 &lt;a href=&quot;http://baixin.io/2016/07/iOSMachineLearning_TensorFlow/&quot;&gt;iOS开发迎来机器学习的春天—TensorFlow&lt;/a&gt; ，或者是直接去 tensorflow 的 &lt;a href=&quot;https://github.com/tensorflow/tensorflow/issues&quot;&gt;Issues&lt;/a&gt; 里面找。&lt;/p&gt;
+&lt;p&gt;如果你还遇到了其它问题，可以看看我之前的一片文章 &lt;a href=&quot;https://yxys01.github.io2016/07/iOSMachineLearning_TensorFlow/&quot;&gt;iOS开发迎来机器学习的春天—TensorFlow&lt;/a&gt; ，或者是直接去 tensorflow 的 &lt;a href=&quot;https://github.com/tensorflow/tensorflow/issues&quot;&gt;Issues&lt;/a&gt; 里面找。&lt;/p&gt;
 
 &lt;p&gt;一个小时后。。。　如果编译没出问题，你可以在目录　&lt;code class=&quot;highlighter-rouge&quot;&gt;tensorflow-master/tensorflow/contrib/makefile／gen/lib&lt;/code&gt; 下找到一个静态库：&lt;code class=&quot;highlighter-rouge&quot;&gt;libtensorflow-core.a&lt;/code&gt; ，把这个静态库拷贝到 camera 项目中，然后编译运行。&lt;/p&gt;
 
@@ -1237,9 +1237,9 @@ Privacy - Calendars Usage Description	日历&lt;/p&gt;
     
       <item>
         <title>Jekyll搭建个人博客</title>
-        <description>&lt;p&gt;　之前写了一篇&lt;a href=&quot;http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程获得了很好评，尤其是在&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;简书&lt;/a&gt;上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。&lt;/p&gt;
+        <description>&lt;p&gt;　之前写了一篇&lt;a href=&quot;https://yxys01.github.io2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程获得了很好评，尤其是在&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;简书&lt;/a&gt;上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。&lt;/p&gt;
 
-&lt;p&gt;　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，&lt;a href=&quot;http://baixin.io/#blog&quot;&gt;博客模板效果&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，&lt;a href=&quot;https://yxys01.github.io#blog&quot;&gt;博客模板效果&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3 id=&quot;介绍&quot;&gt;介绍&lt;/h3&gt;
 
@@ -1315,13 +1315,13 @@ Privacy - Calendars Usage Description	日历&lt;/p&gt;
 
 &lt;h3 id=&quot;博客部署到远端&quot;&gt;博客部署到远端&lt;/h3&gt;
 
-&lt;p&gt;　我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 &lt;a href=&quot;https://github.com/leopardpan&quot;&gt;leopardpan&lt;/a&gt;，我的 github 仓库名就叫 &lt;a href=&quot;https://github.com/leopardpan/leopardpan.github.io&quot;&gt;leopardpan.github.io&lt;/a&gt;，创建好了之后，把刚才建立的 myBlog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。&lt;/p&gt;
+&lt;p&gt;　我这里讲的是部署到 Github Page 创建一个 github 账号，然后创建一个跟你账户名一样的仓库，如我的 github 账户名叫 &lt;a href=&quot;https://github.com/yxys01&quot;&gt;yxys01&lt;/a&gt;，我的 github 仓库名就叫 &lt;a href=&quot;https://github.com/yxys01/yxys01.github.io&quot;&gt;yxys01.github.io&lt;/a&gt;，创建好了之后，把刚才建立的 myBlog 项目 push 到 username.github.io仓库里去（username指的是你的github用户名），检查你远端仓库已经跟你本地 myBlog 同步了，然后你在浏览器里输入 username.github.io ，就可以访问你的博客了。&lt;/p&gt;
 
 &lt;h3 id=&quot;编写文章&quot;&gt;编写文章&lt;/h3&gt;
 
 &lt;p&gt;　　所有的文章都是 _posts 目录下面，文章格式为 mardown 格式，文章文件名可以是 .mardown 或者 .md。&lt;/p&gt;
 
-&lt;p&gt;　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 &lt;code class=&quot;highlighter-rouge&quot;&gt;2016-10-16-welcome-to-jekyll副本.markdown&lt;/code&gt; ，修改名字为 2016-10-16-article1.markdown ，注意：文章名的格式前面必须为 2016-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：http://baixin.io/2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2016-10-16-article1.markdown 打开&lt;/p&gt;
+&lt;p&gt;　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 &lt;code class=&quot;highlighter-rouge&quot;&gt;2016-10-16-welcome-to-jekyll副本.markdown&lt;/code&gt; ，修改名字为 2016-10-16-article1.markdown ，注意：文章名的格式前面必须为 2016-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：https://yxys01.github.io2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2016-10-16-article1.markdown 打开&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 ---
@@ -1347,7 +1347,7 @@ categories: tag标签的分类，如：categories: 随笔&lt;/p&gt;
 
 &lt;p&gt;虽然博客部署完成了，你会发现博客太简单不是你想要的，如果你喜欢我的模板的话，可以使用我的模板。&lt;/p&gt;
 
-&lt;p&gt;首先你要获取的我博客，&lt;a href=&quot;https://github.com/leopardpan/leopardpan.github.io.git&quot;&gt;Github项目地址&lt;/a&gt;，你可以直接&lt;a href=&quot;https://github.com/leopardpan/leopardpan.github.io/archive/master.zip&quot;&gt;点击下载博客&lt;/a&gt;，进去leopardpan.github.io/ 目录下， 使用命令部署本地服务&lt;/p&gt;
+&lt;p&gt;首先你要获取的我博客，&lt;a href=&quot;https://github.com/yxys01/yxys01.github.io.git&quot;&gt;Github项目地址&lt;/a&gt;，你可以直接&lt;a href=&quot;https://github.com/yxys01/yxys01.github.io/archive/master.zip&quot;&gt;点击下载博客&lt;/a&gt;，进去yxys01.github.io/ 目录下， 使用命令部署本地服务&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ jekyll server   
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1430,7 +1430,7 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 
 &lt;p&gt;继续报错&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Configuration file: /Users/tendcloud-Caroline/Desktop/leopardpan.github.io/_config.yml
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Configuration file: /Users/tendcloud-Caroline/Desktop/yxys01.github.io/_config.yml
   Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
 jekyll 3.1.1 | Error:  jekyll-sitemap
 
@@ -1454,14 +1454,14 @@ jekyll 3.1.1 | Error:  jekyll-sitemap
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;提示&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
-            Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github
-       Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_site
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/yxys01.github.io-github/_config.yml
+            Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/yxys01.github.io-github
+       Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/yxys01.github.io-github/_site
  Incremental build: disabled. Enable with --incremental
       Generating... 
                     done in 0.901 seconds.
- Auto-regeneration: enabled for '/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github'
-Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
+ Auto-regeneration: enabled for '/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/yxys01.github.io-github'
+Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/yxys01.github.io-github/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 
@@ -1486,9 +1486,9 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 
 &lt;h3 id=&quot;为什么要是用-jekyll&quot;&gt;为什么要是用 Jekyll&lt;/h3&gt;
 
-&lt;p&gt;使用了 Jekyll 你会发现如果你想使用多台电脑发博客都很方便，只要把远端 github 仓库里的博客 clone 下来，写文章后再提交就可以了，Hexo 由于远端提交的是静态网页，所有无法直接写 Markdown 的文章。如果你想看 Hexo 搭建博客，可以看看我的另一篇&lt;a href=&quot;http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程。&lt;/p&gt;
+&lt;p&gt;使用了 Jekyll 你会发现如果你想使用多台电脑发博客都很方便，只要把远端 github 仓库里的博客 clone 下来，写文章后再提交就可以了，Hexo 由于远端提交的是静态网页，所有无法直接写 Markdown 的文章。如果你想看 Hexo 搭建博客，可以看看我的另一篇&lt;a href=&quot;https://yxys01.github.io2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程。&lt;/p&gt;
 
-&lt;p&gt;如果你在搭建博客遇到问题，可以在&lt;a href=&quot;http://baixin.io/2016/10/jekyll_tutorials1/&quot;&gt;原文博客&lt;/a&gt;的评论里给我提问。&lt;/p&gt;
+&lt;p&gt;如果你在搭建博客遇到问题，可以在&lt;a href=&quot;https://yxys01.github.io2016/10/jekyll_tutorials1/&quot;&gt;原文博客&lt;/a&gt;的评论里给我提问。&lt;/p&gt;
 
 &lt;p&gt;后面会继续介绍，在我的博客基础上，如何修改成你自己喜欢的 Style，欢迎继续关注我博客的更新。&lt;/p&gt;
 
@@ -1566,7 +1566,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/09/iOSLowerLeftAppicon/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/09/iOSLowerLeftAppicon/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Sep 2016 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2016/09/iOSLowerLeftAppicon/</link>
@@ -1602,7 +1602,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import os
 
-os.popen('git clone https://github.com/leopardpan/leopardpan.github.io.git')   
+os.popen('git clone https://github.com/yxys01/yxys01.github.io.git')   
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;git pull 。。。 更新代码也是一样的。&lt;/p&gt;
@@ -1687,7 +1687,7 @@ def format_addr(self,s):
         addr.encode('utf-8') if isinstance(addr, unicode) else addr))
 
 def send_mail(self, mail, message, title):
-	from_addr = 'leopardpan@163.com'
+	from_addr = 'yxys01@163.com'
 	password = ''
 	to_addr = mail
 	smtp_server = 'smtp.163.com'
@@ -1703,19 +1703,19 @@ def send_mail(self, mail, message, title):
 	server.sendmail(from_addr, [to_addr], msg.as_string())
 	server.quit()
 
-send_mail('leopardpan@icloud.com','正文','标题')
+send_mail('yxys01@icloud.com','正文','标题')
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;from_addr是发送方的邮箱地址，password是开通SMTP时输入的密码   &lt;br /&gt;
 smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要写成smtp_server = ‘smtp.gmail.com’ 了。&lt;/p&gt;
 
-&lt;p&gt;方法 send_mail(self, mail, message, title): 有四个参数，第一个不用传，第二个参数是收信人的邮箱，第三个是邮件的正文，第四个是邮件的标题，方法调用格式： &lt;code class=&quot;highlighter-rouge&quot;&gt;send_mail('leopardpan@icloud.com','正文','标题')&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;方法 send_mail(self, mail, message, title): 有四个参数，第一个不用传，第二个参数是收信人的邮箱，第三个是邮件的正文，第四个是邮件的标题，方法调用格式： &lt;code class=&quot;highlighter-rouge&quot;&gt;send_mail('yxys01@icloud.com','正文','标题')&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;注意：发送方的邮箱必须要开通SMTP功能才行，否则会报错&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;ul&gt;
-    &lt;li&gt;SMTPSenderRefused: (550, ‘User has no permission’, ‘leopardpan@163.com’)&lt;/li&gt;
+    &lt;li&gt;SMTPSenderRefused: (550, ‘User has no permission’, ‘yxys01@163.com’)&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
@@ -1728,7 +1728,7 @@ smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要�
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;http://baixin.io/2016/08/PythonTestAutomationiOS/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/08/PythonTestAutomationiOS/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 04 Aug 2016 00:00:00 +0800</pubDate>

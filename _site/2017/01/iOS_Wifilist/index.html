@@ -8,7 +8,7 @@
 
   <title>Wifi 定位原理及 iOS Wifi 列表获取</title>
   <meta name="description" content="　　对于大家来说，Wifi 应该是一个很熟悉的词了，我们每天都可能在使用 Wifi 热点。Wifi 除了能给我们提供热点之外同时还有定位的作用， 现在移动设备的对用户的隐私保护是越来越严格了，就如定位功能，必须要经过设备用户的授权才能使用 Location 给这台设备定位。这些严格的隐私政策对用户起到到保护作用，...">
-  <meta name="author" content="leopardpan">
+  <meta name="author" content="yxys01">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Wifi 定位原理及 iOS Wifi 列表获取">
@@ -110,7 +110,7 @@
                     <div class="info-back">
                         <h2> 
                             
-                                leopardpan
+                                yxys01
                             
                         </h2>
                         <p>
@@ -267,7 +267,7 @@ We added a new template containing the Network Extension entitlements to your te
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- (void)getWifiList {
 
 	if (![[[UIDevice currentDevice] systemVersion] floatValue] &gt;= 9.0) {return;}
-	dispatch_queue_t queue = dispatch_queue_create("com.leopardpan.HotspotHelper", 0);
+	dispatch_queue_t queue = dispatch_queue_create("com.yxys01.HotspotHelper", 0);
 	[NEHotspotHelper registerWithOptions:nil queue:queue handler: ^(NEHotspotHelperCommand * cmd) {
 		if(cmd.commandType == kNEHotspotHelperCommandTypeFilterScanList) {
 			for (NEHotspotNetwork* network  in cmd.networkList) {
@@ -321,7 +321,7 @@ We added a new template containing the Network Extension entitlements to your te
 
 <h3 id="qa">Q&amp;A</h3>
 
-<p>在操作过程或者文章有问题的话欢迎在 <a href="http://baixin.io/2017/01/iOS_Wifilist/">原文</a> 里提问或指正。</p>
+<p>在操作过程或者文章有问题的话欢迎在 <a href="https://yxys01.github.io2017/01/iOS_Wifilist/">原文</a> 里提问或指正。</p>
 
 <blockquote>
   <ul>
@@ -334,7 +334,7 @@ We added a new template containing the Network Extension entitlements to your te
 <p>参考资源：<a href="http://stackoverflow.com/questions/31704292/nehotspothelper-networkextension-api-ios9-0">NEHotspotHelper NetworkExtension API iOS9.0</a></p>
 
 <p><br />
-转载请注明：<a href="http://baixin">yxys01的博客</a> » <a href="http://baixin.io/2017/01/iOS_Wifilist/">Wifi 定位原理及 iOS Wifi 列表获取</a></p>
+转载请注明：<a href="http://baixin">yxys01的博客</a> » <a href="https://yxys01.github.io2017/01/iOS_Wifilist/">Wifi 定位原理及 iOS Wifi 列表获取</a></p>
 
 
 
@@ -458,7 +458,7 @@ We added a new template containing the Network Extension entitlements to your te
           
           <!-- Github -->
           <li class="navigation__item_social">
-            <a href="https://github.com/leopardpan" title="@leopardpan 的 Github" target="_blank">
+            <a href="https://github.com/yxys01" title="@yxys01 的 Github" target="_blank">
               <i class='social fa fa-github fa-2x'></i>
               <span class="label">Github</span>
             </a>
@@ -480,7 +480,7 @@ We added a new template containing the Network Extension entitlements to your te
           
           <!-- Email -->
           <li class="navigation__item_social">
-            <a href="mailto:leopardpan@icloud.com" title="Contact me">
+            <a href="mailto:yxys01@icloud.com" title="Contact me">
               <i class='social fa fa-envelope fa-2x'></i>
               <span class="label">Email</span>
             </a>
@@ -494,11 +494,11 @@ We added a new template containing the Network Extension entitlements to your te
 
         <div class = "footer_div">  
            <p class="copyright text-muted">
-            Copyright &copy; yxys01 2017 Theme by <a href="http://baixin.io/">leopardpan</a> |
+            Copyright &copy; yxys01 2017 Theme by <a href="https://yxys01.github.io">yxys01</a> |
             <iframe
                 style="margin-left: 2px; margin-bottom:-5px;"
                 frameborder="0" scrolling="0" width="91px" height="20px"
-                src="https://ghbtns.com/github-btn.html?user=leopardpan&repo=leopardpan.github.io&type=star&count=true" >
+                src="https://ghbtns.com/github-btn.html?user=yxys01&repo=yxys01.github.io&type=star&count=true" >
             </iframe>
             </p>
         	<div align="right">

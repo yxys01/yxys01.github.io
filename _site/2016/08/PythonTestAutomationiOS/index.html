@@ -8,7 +8,7 @@
 
   <title>Python自动化测试iOS项目</title>
   <meta name="description" content="作为一个开发人员，为了保证自己的代码的健壮，写单元测试是必不可少的环节，然而最痛快的是每天去手动跑一遍所有的case。那么什么能帮我们解决这些繁琐的操作呢，大家应该会想到自动化测试脚本了，是的，我们可以借助脚本来完成全自动化测试，下面是我列的每天脚本自动执行流程：">
-  <meta name="author" content="leopardpan">
+  <meta name="author" content="yxys01">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Python自动化测试iOS项目">
@@ -110,7 +110,7 @@
                     <div class="info-back">
                         <h2> 
                             
-                                leopardpan
+                                yxys01
                             
                         </h2>
                         <p>
@@ -201,7 +201,7 @@
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import os
 
-os.popen('git clone https://github.com/leopardpan/leopardpan.github.io.git')   
+os.popen('git clone https://github.com/yxys01/yxys01.github.io.git')   
 
 </code></pre></div></div>
 <p>git pull 。。。 更新代码也是一样的。</p>
@@ -286,7 +286,7 @@ def format_addr(self,s):
         addr.encode('utf-8') if isinstance(addr, unicode) else addr))
 
 def send_mail(self, mail, message, title):
-	from_addr = 'leopardpan@163.com'
+	from_addr = 'yxys01@163.com'
 	password = ''
 	to_addr = mail
 	smtp_server = 'smtp.163.com'
@@ -302,19 +302,19 @@ def send_mail(self, mail, message, title):
 	server.sendmail(from_addr, [to_addr], msg.as_string())
 	server.quit()
 
-send_mail('leopardpan@icloud.com','正文','标题')
+send_mail('yxys01@icloud.com','正文','标题')
 </code></pre></div></div>
 
 <p>from_addr是发送方的邮箱地址，password是开通SMTP时输入的密码   <br />
 smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要写成smtp_server = ‘smtp.gmail.com’ 了。</p>
 
-<p>方法 send_mail(self, mail, message, title): 有四个参数，第一个不用传，第二个参数是收信人的邮箱，第三个是邮件的正文，第四个是邮件的标题，方法调用格式： <code class="highlighter-rouge">send_mail('leopardpan@icloud.com','正文','标题')</code></p>
+<p>方法 send_mail(self, mail, message, title): 有四个参数，第一个不用传，第二个参数是收信人的邮箱，第三个是邮件的正文，第四个是邮件的标题，方法调用格式： <code class="highlighter-rouge">send_mail('yxys01@icloud.com','正文','标题')</code></p>
 
 <p>注意：发送方的邮箱必须要开通SMTP功能才行，否则会报错</p>
 
 <blockquote>
   <ul>
-    <li>SMTPSenderRefused: (550, ‘User has no permission’, ‘leopardpan@163.com’)</li>
+    <li>SMTPSenderRefused: (550, ‘User has no permission’, ‘yxys01@163.com’)</li>
   </ul>
 </blockquote>
 
@@ -327,7 +327,7 @@ smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要�
 
 <p><br /></p>
 
-<p>转载请注明：<a href="http://baixin">yxys01的博客</a> » <a href="http://baixin.io/2016/08/PythonTestAutomationiOS/">点击阅读原文</a></p>
+<p>转载请注明：<a href="http://baixin">yxys01的博客</a> » <a href="https://yxys01.github.io2016/08/PythonTestAutomationiOS/">点击阅读原文</a></p>
 
 
 
@@ -456,7 +456,7 @@ smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要�
           
           <!-- Github -->
           <li class="navigation__item_social">
-            <a href="https://github.com/leopardpan" title="@leopardpan 的 Github" target="_blank">
+            <a href="https://github.com/yxys01" title="@yxys01 的 Github" target="_blank">
               <i class='social fa fa-github fa-2x'></i>
               <span class="label">Github</span>
             </a>
@@ -478,7 +478,7 @@ smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要�
           
           <!-- Email -->
           <li class="navigation__item_social">
-            <a href="mailto:leopardpan@icloud.com" title="Contact me">
+            <a href="mailto:yxys01@icloud.com" title="Contact me">
               <i class='social fa fa-envelope fa-2x'></i>
               <span class="label">Email</span>
             </a>
@@ -492,11 +492,11 @@ smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要�
 
         <div class = "footer_div">  
            <p class="copyright text-muted">
-            Copyright &copy; yxys01 2017 Theme by <a href="http://baixin.io/">leopardpan</a> |
+            Copyright &copy; yxys01 2017 Theme by <a href="https://yxys01.github.io">yxys01</a> |
             <iframe
                 style="margin-left: 2px; margin-bottom:-5px;"
                 frameborder="0" scrolling="0" width="91px" height="20px"
-                src="https://ghbtns.com/github-btn.html?user=leopardpan&repo=leopardpan.github.io&type=star&count=true" >
+                src="https://ghbtns.com/github-btn.html?user=yxys01&repo=yxys01.github.io&type=star&count=true" >
             </iframe>
             </p>
         	<div align="right">
