@@ -11,9 +11,10 @@ title: 关于我
 </p>
 <p>
 尝试学习过一些Web开发的技术
-前端：HTML5+CSS3、JavaScript、JQuery
-后台：Java、PHP、Golang
 <p>
+前端：HTML5+CSS3、JavaScript、JQuery
+<p>
+后台：Java、PHP、Golang
 <p>
 也参与过一些游戏项目：OpenGL、OpenCV、Lua等
 <p>
