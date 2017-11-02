@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于我 
+title: 关于我之别给说在这里 
 ---
 
 一个 iOS APP开发者兼iOS自动化测试一体化平台搭建者。
