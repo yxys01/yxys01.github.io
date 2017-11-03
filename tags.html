@@ -5,21 +5,7 @@ header: 根据快速导航到相应的文章
 group: navigation
 ---
 {% include JB/setup %}
-<!--手风琴特效 -->
-<script type="text/javascript" src="../js/jquery-1.5.2.min.js"></script>
-<script type="text/javascript" src="../js/scriptbreaker-multiple-accordion-1.js"></script>
-<script language="JavaScript">
 
-$(document).ready(function() {
-$(".topnav").accordion({
-  accordion:false,
-  speed: 500,
-  closedSign: '[+]',
-  openedSign: '[-]'
-});
-});
-
-</script>
 
 <ul class="topnav">
   <li><a href="#" target="scriptbreaker">Home</a></li>
@@ -142,3 +128,18 @@ $(".topnav").accordion({
 
 {% endfor %}
 </div>
+<!--手风琴特效 -->
+<script type="text/javascript" src="../js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="../js/scriptbreaker-multiple-accordion-1.js"></script>
+<script language="JavaScript">
+
+$(document).ready(function() {
+$(".topnav").accordion({
+  accordion:false,
+  speed: 500,
+  closedSign: '[+]',
+  openedSign: '[-]'
+});
+});
+
+</script>
