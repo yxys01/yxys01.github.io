@@ -15,10 +15,10 @@ comment:
 
 # Social
 social:
-    weibo: 18602832130 
+    weibo: yxys01 
     github: yxys01
     # twitter: 
-    mail: 420393969@qq.com
+    mail: yxys01@qq.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
@@ -34,14 +34,14 @@ markdown: kramdown
 
 kramdown:
   input: GFM
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-  use_coderay: true
-  syntax_highlighter: rouge
-  coderay:
-    coderay_line_numbers:  nil
+#  extensions:
+#    - autolink
+#    - footnotes
+#    - smart
+#  use_coderay: true
+#  syntax_highlighter: rouge
+#  coderay:
+#    coderay_line_numbers:  nil
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
 #
