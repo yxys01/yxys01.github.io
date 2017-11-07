@@ -207,7 +207,8 @@ $git checkout --orphan gh-pages
 
 &#160; &#160; &#160; &#160;在`_layouts`目录下创建一个`default.html`，在其中输入如下内容，特别注意：文件本身要以`UTF-8 without BOM`的格式保存，以防止各种编码问题，建议使用`notepad++`或`sublime`编辑（Ps：个人强烈推荐`sublime text 3`）
 &#160; &#160; &#160; &#160;**default.html**
-```
+
+```html
 <!DOCTYPE html>
 	<html>
 	<head>
@@ -215,11 +216,12 @@ $git checkout --orphan gh-pages
 	　<title>一步步在GitHub上创建博客主页(2)</title>
 	</head>
 	<body>
-	　{{content }}
+	　{{content...}}
 	</body>
 	</html>
 ```
-&#160; &#160; &#160; &#160;编辑**index.html**
+&#160; &#160; &#160; &#160;编辑 **index.html**
+
 
 ```
 ---
