@@ -30,7 +30,10 @@ baidu:
 #ga:
 #    id: UA-84134159-3   
 #    host: auto  
+markdown: kramdown
 
+kramdown:
+  input: GFM
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
 #
