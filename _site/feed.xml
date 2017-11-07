@@ -10,7 +10,7 @@
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>Wifi 定位原理及 iOS Wifi 列表获取 test7</title>
+        <title>Wifi 定位原理及 iOS Wifi 列表获取</title>
         <description>&lt;p&gt;　　对于大家来说，Wifi 应该是一个很熟悉的词了，我们每天都可能在使用 Wifi 热点。Wifi 除了能给我们提供热点之外同时还有定位的作用， 现在移动设备的对用户的隐私保护是越来越严格了，就如定位功能，必须要经过设备用户的授权才能使用 Location 给这台设备定位。这些严格的隐私政策对用户起到到保护作用，但对开发人员却是一种阻碍，在产品强需求的情况下用户是会授权的，如地图类应用，但是另外一些没有对定位强需求的产品，用户可能就不会给你授权了，这是我们可以考虑下 Wifi 定位了。&lt;/p&gt;
 
 &lt;h3 id=&quot;wifi-定位原理&quot;&gt;Wifi 定位原理&lt;/h3&gt;
@@ -154,7 +154,7 @@ We added a new template containing the Network Extension entitlements to your te
 
 &lt;h3 id=&quot;qa&quot;&gt;Q&amp;amp;A&lt;/h3&gt;
 
-&lt;p&gt;在操作过程或者文章有问题的话欢迎在 &lt;a href=&quot;https://yxys01.github.io2017/01/iOS_Wifilist/&quot;&gt;原文&lt;/a&gt; 里提问或指正。&lt;/p&gt;
+&lt;p&gt;在操作过程或者文章有问题的话欢迎在 &lt;a href=&quot;https://yxys01.github.io/2017/01/iOS_Wifilist/&quot;&gt;原文&lt;/a&gt; 里提问或指正。&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;ul&gt;
@@ -167,7 +167,7 @@ We added a new template containing the Network Extension entitlements to your te
 &lt;p&gt;参考资源：&lt;a href=&quot;http://stackoverflow.com/questions/31704292/nehotspothelper-networkextension-api-ios9-0&quot;&gt;NEHotspotHelper NetworkExtension API iOS9.0&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2017/01/iOS_Wifilist/&quot;&gt;Wifi 定位原理及 iOS Wifi 列表获取&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;https://yxys01.github.io/&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io/2017/01/iOS_Wifilist/&quot;&gt;Wifi 定位原理及 iOS Wifi 列表获取&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 03 Jan 2017 00:00:00 +0800</pubDate>
@@ -226,7 +226,7 @@ CGRectMake(0, -self.view.bounds.size.height, self.view.bounds.size.width, self.v
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/12/iOS_Dev_Note/&quot;&gt;iOS开发中的小问题记录&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;https://yxys01.github.io/&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io/2016/12/iOS_Dev_Note/&quot;&gt;iOS开发中的小问题记录&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 02 Dec 2016 00:00:00 +0800</pubDate>
@@ -813,7 +813,7 @@ sess.close()
 这篇文章是在 &lt;a href=&quot;https://www.analyticsvidhya.com/blog/2016/10/an-introduction-to-implementing-neural-networks-using-tensorflow/&quot;&gt;An Introduction to Implementing Neural Networks using TensorFlow&lt;/a&gt; 的基础上做的翻译和局部调整，如果发现翻译中有不对或者歧义的的地方欢迎在下面评论里提问，我会加以修正 。&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/11/neural_networks_using_TensorFlow/&quot;&gt;使用 TensorFlow 实现神经网络&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;https://yxys01.github.io/&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io/2016/11/neural_networks_using_TensorFlow/&quot;&gt;使用 TensorFlow 实现神经网络&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
@@ -892,7 +892,7 @@ H6 :###### Header 6    &lt;br /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/11/markdownTool/&quot;&gt;Markdown工具集&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;https://yxys01.github.io/&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io/2016/11/markdownTool/&quot;&gt;Markdown工具集&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 20 Nov 2016 00:00:00 +0800</pubDate>
@@ -998,7 +998,7 @@ The key fingerprint is:
 
 &lt;p&gt;另外，请注意路径的正确性。&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/11/macTips/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;https://yxys01.github.io/&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io/2016/11/macTips/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 16 Nov 2016 00:00:00 +0800</pubDate>
@@ -1055,12 +1055,12 @@ autoreconf: automake failed with exit status: 1
 
 &lt;p&gt;解决方法是：先卸载 libtool 在重新安装，&lt;code class=&quot;highlighter-rouge&quot;&gt;brew uninstall libtool&lt;/code&gt; &amp;amp;&amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;brew install libtool&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;如果你还遇到了其它问题，可以看看我之前的一片文章 &lt;a href=&quot;https://yxys01.github.io2016/07/iOSMachineLearning_TensorFlow/&quot;&gt;iOS开发迎来机器学习的春天—TensorFlow&lt;/a&gt; ，或者是直接去 tensorflow 的 &lt;a href=&quot;https://github.com/tensorflow/tensorflow/issues&quot;&gt;Issues&lt;/a&gt; 里面找。&lt;/p&gt;
+&lt;p&gt;如果你还遇到了其它问题，可以看看我之前的一片文章 &lt;a href=&quot;https://yxys01.github.io/2016/07/iOSMachineLearning_TensorFlow/&quot;&gt;iOS开发迎来机器学习的春天—TensorFlow&lt;/a&gt; ，或者是直接去 tensorflow 的 &lt;a href=&quot;https://github.com/tensorflow/tensorflow/issues&quot;&gt;Issues&lt;/a&gt; 里面找。&lt;/p&gt;
 
 &lt;p&gt;一个小时后。。。　如果编译没出问题，你可以在目录　&lt;code class=&quot;highlighter-rouge&quot;&gt;tensorflow-master/tensorflow/contrib/makefile／gen/lib&lt;/code&gt; 下找到一个静态库：&lt;code class=&quot;highlighter-rouge&quot;&gt;libtensorflow-core.a&lt;/code&gt; ，把这个静态库拷贝到 camera 项目中，然后编译运行。&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+转载请注明：&lt;a href=&quot;https://yxys01.github.io/&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 03 Nov 2016 00:00:00 +0800</pubDate>
@@ -1237,9 +1237,9 @@ Privacy - Calendars Usage Description	日历&lt;/p&gt;
     
       <item>
         <title>Jekyll搭建个人博客</title>
-        <description>&lt;p&gt;　之前写了一篇&lt;a href=&quot;https://yxys01.github.io2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程获得了很好评，尤其是在&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;简书&lt;/a&gt;上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。&lt;/p&gt;
+        <description>&lt;p&gt;　之前写了一篇&lt;a href=&quot;https://yxys01.github.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程获得了很好评，尤其是在&lt;a href=&quot;http://www.jianshu.com/p/465830080ea9&quot;&gt;简书&lt;/a&gt;上目前已经累积了10W+的阅读量了，也有好心的读者主动给我打赏，在此感谢。&lt;/p&gt;
 
-&lt;p&gt;　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，&lt;a href=&quot;https://yxys01.github.io#blog&quot;&gt;博客模板效果&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;　如果你看过我的文章会发现我现在的博客样式跟之前是有很大的区别的，之前我也是使用 HEXO 搭建的博客，后来发现使用 HEXO 在多台电脑上发布博客，操作起来并不是那么方便，果断就转到了 Jekyll 上，接下来我会讲如何使用 Jekyll 搭建博客，&lt;a href=&quot;https://yxys01.github.io/#blog&quot;&gt;博客模板效果&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3 id=&quot;介绍&quot;&gt;介绍&lt;/h3&gt;
 
@@ -1321,7 +1321,7 @@ Privacy - Calendars Usage Description	日历&lt;/p&gt;
 
 &lt;p&gt;　　所有的文章都是 _posts 目录下面，文章格式为 mardown 格式，文章文件名可以是 .mardown 或者 .md。&lt;/p&gt;
 
-&lt;p&gt;　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 &lt;code class=&quot;highlighter-rouge&quot;&gt;2016-10-16-welcome-to-jekyll副本.markdown&lt;/code&gt; ，修改名字为 2016-10-16-article1.markdown ，注意：文章名的格式前面必须为 2016-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：https://yxys01.github.io2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2016-10-16-article1.markdown 打开&lt;/p&gt;
+&lt;p&gt;　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 &lt;code class=&quot;highlighter-rouge&quot;&gt;2016-10-16-welcome-to-jekyll副本.markdown&lt;/code&gt; ，修改名字为 2016-10-16-article1.markdown ，注意：文章名的格式前面必须为 2016-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：https://yxys01.github.io/2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2016-10-16-article1.markdown 打开&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 ---
@@ -1469,7 +1469,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/yxys01.gi
 
 &lt;p&gt;表示本地服务部署成功。&lt;/p&gt;
 
-&lt;p&gt;在浏览器输入 &lt;a href=&quot;127.0.0.1:4000&quot;&gt;127.0.0.1:4000&lt;/a&gt; ， 就可以看到&lt;a href=&quot;http://baixin.io&quot;&gt;baixin.io&lt;/a&gt;博客效果了。&lt;/p&gt;
+&lt;p&gt;在浏览器输入 &lt;a href=&quot;127.0.0.1:4000&quot;&gt;127.0.0.1:4000&lt;/a&gt; ， 就可以看到&lt;a href=&quot;https://yxys01.github.io/.io&quot;&gt;baixin.io&lt;/a&gt;博客效果了。&lt;/p&gt;
 
 &lt;h3 id=&quot;修改成你自己的博客&quot;&gt;修改成你自己的博客&lt;/h3&gt;
 
@@ -1486,9 +1486,9 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/yxys01.gi
 
 &lt;h3 id=&quot;为什么要是用-jekyll&quot;&gt;为什么要是用 Jekyll&lt;/h3&gt;
 
-&lt;p&gt;使用了 Jekyll 你会发现如果你想使用多台电脑发博客都很方便，只要把远端 github 仓库里的博客 clone 下来，写文章后再提交就可以了，Hexo 由于远端提交的是静态网页，所有无法直接写 Markdown 的文章。如果你想看 Hexo 搭建博客，可以看看我的另一篇&lt;a href=&quot;https://yxys01.github.io2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程。&lt;/p&gt;
+&lt;p&gt;使用了 Jekyll 你会发现如果你想使用多台电脑发博客都很方便，只要把远端 github 仓库里的博客 clone 下来，写文章后再提交就可以了，Hexo 由于远端提交的是静态网页，所有无法直接写 Markdown 的文章。如果你想看 Hexo 搭建博客，可以看看我的另一篇&lt;a href=&quot;https://yxys01.github.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&quot;&gt;HEXO搭建个人博客&lt;/a&gt;的教程。&lt;/p&gt;
 
-&lt;p&gt;如果你在搭建博客遇到问题，可以在&lt;a href=&quot;https://yxys01.github.io2016/10/jekyll_tutorials1/&quot;&gt;原文博客&lt;/a&gt;的评论里给我提问。&lt;/p&gt;
+&lt;p&gt;如果你在搭建博客遇到问题，可以在&lt;a href=&quot;https://yxys01.github.io/2016/10/jekyll_tutorials1/&quot;&gt;原文博客&lt;/a&gt;的评论里给我提问。&lt;/p&gt;
 
 &lt;p&gt;后面会继续介绍，在我的博客基础上，如何修改成你自己喜欢的 Style，欢迎继续关注我博客的更新。&lt;/p&gt;
 
@@ -1566,7 +1566,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/yxys01.gi
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/09/iOSLowerLeftAppicon/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;https://yxys01.github.io/&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io/2016/09/iOSLowerLeftAppicon/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Sep 2016 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2016/09/iOSLowerLeftAppicon/</link>
@@ -1728,7 +1728,7 @@ smtp_server是smtp的服务，如果你的from_addr是gamil.com，那么就要�
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;转载请注明：&lt;a href=&quot;http://baixin&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io2016/08/PythonTestAutomationiOS/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载请注明：&lt;a href=&quot;https://yxys01.github.io/&quot;&gt;yxys01的博客&lt;/a&gt; » &lt;a href=&quot;https://yxys01.github.io/2016/08/PythonTestAutomationiOS/&quot;&gt;点击阅读原文&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 04 Aug 2016 00:00:00 +0800</pubDate>

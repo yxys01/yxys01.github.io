@@ -170,7 +170,7 @@ Demo.xcworkspace 、Podfile 、Podfile.lock 、Pods
 
 <br>
 
-转载请注明：[yxys01的博客](http://baixin) » [点击阅读原文](https://yxys01.github.io2016/04/CocoaPod_Use/)     
+转载请注明：[yxys01的博客](https://yxys01.github.io/) » [点击阅读原文](https://yxys01.github.io/2016/04/CocoaPod_Use/)     
 
 
 

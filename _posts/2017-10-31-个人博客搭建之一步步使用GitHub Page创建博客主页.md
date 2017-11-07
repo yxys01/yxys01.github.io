@@ -68,7 +68,7 @@ tag: 个人博客
 
 &#160; &#160; &#160; &#160;以上是一个系列的文章，讲解非常详细，但是Mac上使用还是存在一些出入和问题
 
-&#160; &#160; &#160; &#160;[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/)
+&#160; &#160; &#160; &#160;[Jekyll搭建个人博客](https://yxys01.github.io/2016/10/jekyll_tutorials1/)
 
 &#160; &#160; &#160; &#160;[如何利用github打造博客专属域名](http://blog.csdn.net/lmj623565791/article/details/51319147)
 
