@@ -28,7 +28,16 @@ title: 关于我
 里面有一些关于 iOS 、Web开发 和 自动化测试 的文章。
 
 <p>
+<h3>  我的博客</h3>  
 
+<p> 我的独立博客：http://www.yxys01.com<p>
+<p> CSDN博客：http://blog.csdn.net/yxys01<p>
+<p> TesterHome：https://testerhome.com/yxys01<p>
+<p> 新浪微博：http://weibo.com/yxys01<p>
+<p> Twitter：twitter.com/yxys01<p>
+<p> Github: https://github.com/yxys01<p>
+<p> Email：yxys01@qq.com<p>
+<p> 微信公众号：yxys01 <p>
 <h3>  我的博客</h3>  
 
 <p>

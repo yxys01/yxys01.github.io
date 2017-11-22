@@ -2,7 +2,7 @@
 layout: post
 title: 个人博客搭建之一步步使用Github Page创建博客主页（1）
 date: 2017-10-31 
-tag: 个人博客
+tag: 个人博客搭建
 ---
 * TOC
 {:toc}
